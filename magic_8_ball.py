@@ -8,4 +8,4 @@ Magic_8_Ball = random.randint(0,10)
 
 output = outcomes.get(Magic_8_Ball, 'Null')
 
-print(output)
+print('Magic 8 Ball says: ', output)
